@@ -50,6 +50,7 @@
   width: 100px;
   margin-top: 10%;
   margin-left: 6%;
+  object-fit: contain;
 }
 
 .userName{
