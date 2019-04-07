@@ -31,3 +31,52 @@
     transform: rotate(360deg);
   }
 }
+
+.profile{
+  background-color: darkgrey;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.userHeader{
+  background-color: #61dafb;
+  width: 100%;
+  height: calc(100vh / 5);
+  display: flex;
+}
+
+.userIcon{
+  height: 100px;
+  width: 100px;
+  margin-top: 10%;
+  margin-left: 6%;
+}
+
+.userName{
+  height: 30%;
+  width: 25%;
+  word-wrap: break-word;
+  margin: auto 0;
+  margin-left: 6%;
+}
+
+.totalGoods{
+  height: 30%;
+  width: 25%;
+  word-wrap: break-word;
+  margin: auto 0;
+  margin-left: 6%;
+  text-align: center;
+}
+
+.contributions{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contribution{
+  width: 120px;
+  height:  120px;
+  object-fit: contain;
+}
